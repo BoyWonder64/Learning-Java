@@ -14,13 +14,10 @@ public class MonkeyTrouble {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Welcome to Monkey Trouble\n");
-
         System.out.print("We have two Monkeys\n");
-
-        System.out.print("Is the first Monkey Smiling? (true / false)");
+        System.out.print("Is the first Monkey Smiling? (true / false): ");
         aSmile = input.nextBoolean();
-
-        System.out.print("Is the second Monkey Smiling? (true / false)");
+        System.out.print("Is the second Monkey Smiling? (true / false): ");
         bSmile = input.nextBoolean();
 
         if(aSmile == bSmile){

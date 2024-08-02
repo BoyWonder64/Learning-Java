@@ -11,9 +11,7 @@ public class GuessNumber {
         int computerGuess = rng.nextInt(4);
 
         System.out.println("Welcome to Guess Number\n");
-
         System.out.println("Guess a number between 0 and 3");
-
         System.out.print("Enter your guess: ");
         int userGuess = input.nextInt();
 
