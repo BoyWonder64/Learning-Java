@@ -1,3 +1,5 @@
+package Warmups;
+
 import java.util.Scanner;
 import java.util.Random;
 
